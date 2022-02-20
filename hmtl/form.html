@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/form.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>EXERCICIO DE FORMULARIO B7WEB</h1>
+
+  <section>
+   <form action="teste.php" method="post" class="formulario">
+       <label for="Nome completo">
+          Nome completo: <br>
+          <input type="text" placeholder="Nome completo" class="input_name" required> 
+        </label> 
+        
+        <label for="">
+          Data de nascimento: <br>
+          <input type="date" class="input_date" placeholder="Data de nascimento" required>
+         </label>
+         
+         <label for="">
+          Nome da Mãe: <br> 
+          <input type="text" class="input_mother" placeholder="Nome da mãe" required>
+          </label>
+        
+          <label for="">
+          Nome do Pai: <br>
+          <input type="text" minlength="10" class="input_father" placeholder="Nome do pai" required>
+          </label>
+
+          <label for="">
+          Telefone: <br>
+          <input type="tel" class="input_phone" placeholder="Telefone" required>
+          </label>
+          
+          <label for="">
+          E-mail: <br>
+          <input type="email" class="input_email" placeholder="E-mail" required>
+          </label>
+
+          <label for="">
+              <input type="checkbox" class="input_checkbox" required>
+              Declaro que li e concordo com os <a href="">termos</a>.
+          </label>
+          <button>Cadastrar</button>
+      
+    </form>
+</section>
+</body>
+</html>

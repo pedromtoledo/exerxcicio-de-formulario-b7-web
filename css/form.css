@@ -1,0 +1,57 @@
+* {
+    text-decoration: none;
+    font-family: arial;
+}
+
+section{
+    background-color: #ccc;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 1px 5px 10px black;
+    display: flex;
+}
+.formulario{
+    padding: 20px;
+}
+label{
+    display: block;
+    margin: 10px;
+    font-size: 17px;
+}
+.input_name,
+.input_mother,
+.input_father,
+.input_phone,
+.input_email{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px black;
+}
+.input_date{
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px black;
+}
+
+a:hover{
+    color: red;
+}
+button {
+    margin: 10px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    font-size: 19px;
+}
+button:hover{
+    box-shadow: 1px 5px 8px black;
+    background-color: red;
+}
